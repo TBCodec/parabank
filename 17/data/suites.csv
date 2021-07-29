@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 29 22:16:00 GMT 2021","Thu Jul 29 22:16:10 GMT 2021","9262","","com.codecool.parabanktest.LoginToParabankTest","","com.codecool.parabanktest.LoginToParabankTest","Login","Login()",""
