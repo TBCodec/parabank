@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "com.codecool.parabanktest.LoginToParabankTest",
+    "children" : [ {
+      "name" : "Login()",
+      "uid" : "45f23d161817cda8",
+      "parentUid" : "a87f77b2f2e32e2ee7a52cf8d0a91f7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627594073307,
+        "stop" : 1627594078834,
+        "duration" : 5527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a87f77b2f2e32e2ee7a52cf8d0a91f7b"
+  } ],
+  "name" : "suites"
+}
