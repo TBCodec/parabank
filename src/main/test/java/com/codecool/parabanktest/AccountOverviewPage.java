@@ -13,11 +13,11 @@ public class AccountOverviewPage {
 
     private static final By OVERVIEW_PAGE = By.xpath("//a[@href='/parabank/overview.htm']");
     private static final By TOTAL_BALANCE_FIELD = By.xpath("//*[@id=\"accountTable\"]//b[@class='ng-binding']");
-    public static WebDriver driver = Util.GetDriver();
+    public static WebDriver driver = Util2.GetDriver();
     public static WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public static Float GetTotalBalanceAmount() throws InterruptedException {
-        WebElement totalBalanceField = Util.GetDriver().findElement(TOTAL_BALANCE_FIELD);
+        WebElement totalBalanceField = Util2.GetDriver().findElement(TOTAL_BALANCE_FIELD);
         Thread.sleep(500);
         String actualAmount = totalBalanceField.getText();
 

@@ -1,7 +1,5 @@
 package com.codecool.parabanktest;
 
-import com.codecool.parabanktest.LoginToParabankTest;
-import com.codecool.parabanktest.Util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +16,7 @@ public class MenuPage {
     private static final By LOGOUT_BUTTON = By.xpath("//a[@normalize-space()='Log Out']");
     private static final By REGISTER_BUTTON = By.xpath("//*[@id=\"loginPanel\"]//a[normalize-space()='Register']");
 
-    private static WebDriver driver = Util.GetDriver();
+    private static WebDriver driver = Util2.GetDriver();
     private static WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public static void MainPage(){

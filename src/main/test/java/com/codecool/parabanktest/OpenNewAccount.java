@@ -1,10 +1,7 @@
 package com.codecool.parabanktest;
 
-import com.codecool.parabanktest.LoginToParabankTest;
-import com.codecool.parabanktest.Util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -15,7 +12,7 @@ public class OpenNewAccount {
 
 
     public static String CreateNewAccount() throws InterruptedException {
-        WebDriver driver = Util.GetDriver();
+        WebDriver driver = Util2.GetDriver();
         driver.findElement(OPEN_NEW_ACCOUNT_PAGE).click();
         WebDriverWait wait = new WebDriverWait(driver, 10);
         Thread.sleep(500);
