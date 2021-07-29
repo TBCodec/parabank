@@ -27,9 +27,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: |
-          cd ./java
-          mvn clean package test
+        run: mvn -X clean test
         continue-on-error: true
 
       - name: 📁 Get Allure history
