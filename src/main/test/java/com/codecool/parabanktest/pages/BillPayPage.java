@@ -20,15 +20,6 @@ public class BillPayPage {
     public static String accountIn;
     public static Float accountInBalance;
 
-    public static void main(String[] args) {
-
-        LoginToParabankTest.Login();
-        GetTwoAccount();
-        OpenBillPayPage();
-        CreateBillPay();
-        Util.CloseDriver();
-    }
-
     private static final By BILL_PAY_PAGE = By.xpath("//a[@href='/parabank/billpay.htm']");
     private static WebDriver driver = Util.GetDriver();
     private static WebDriverWait wait = new  WebDriverWait(driver, 10);

@@ -43,7 +43,6 @@ public class MenuPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Log Out")));
         driver.findElement(LOGOUT_BUTTON).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_BUTTON));
-        LoginToParabankTest.Login();
     }
 
 
