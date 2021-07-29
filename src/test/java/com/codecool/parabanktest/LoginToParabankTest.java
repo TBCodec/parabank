@@ -67,7 +67,7 @@ public class LoginToParabankTest {
         */
         //String expectedPage = "https://parabank.parasoft.com/parabank/overview.htm";
         String expectedPage = "https://parabank.parasoft.com/parabank/login.htm";
-        String actualPage = Util2.GetDriver().getCurrentUrl();
+        String actualPage = Util.GetDriver().getCurrentUrl();
         Assertions.assertEquals(actualPage, actualPage);
     }
 
