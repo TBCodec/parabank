@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 public class BillPayTest {
 
+    @Test
     public static void BillPayTest(){
         BillPayPage.GetTwoAccount();
         float balanceBeforePaymentNumber = BillPayPage.accountOutBalance;

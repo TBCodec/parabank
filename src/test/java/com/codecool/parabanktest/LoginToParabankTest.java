@@ -2,12 +2,14 @@ package com.codecool.parabanktest;
 
 import com.codecool.parabanktest.pages.MenuPage;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginToParabankTest {
 
+    @Test
     public static void Login(){
         MenuPage.SendUserName();
         MenuPage.SendPassword();
@@ -26,6 +28,7 @@ public class LoginToParabankTest {
         */
     }
 
+    @Test
     public static void LoginTest(){
         String expectedPage = "https://parabank.parasoft.com/parabank/overview.htm";
         String actualPage = Util.GetDriver().getCurrentUrl();

@@ -11,6 +11,7 @@ import java.util.List;
 
 public class OpenNewAccountTest {
 
+    @Test
     public static void CheckingNewAccountCreated() throws InterruptedException {
         boolean isThereTheNewAccount = false;
         String newAccountNumber = OpenNewAccount.CreateNewAccount();
