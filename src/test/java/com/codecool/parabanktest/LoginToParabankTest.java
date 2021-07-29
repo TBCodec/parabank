@@ -12,6 +12,7 @@ public class LoginToParabankTest {
         MenuPage.SendUserName();
         MenuPage.SendPassword();
         MenuPage.ClickLogInButton();
+        /*
         try {
             WebDriverWait wait = new WebDriverWait(Util.GetDriver(), 10);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"rightPanel\"]/p")));
@@ -22,6 +23,7 @@ public class LoginToParabankTest {
         catch (Exception e){
             throw e;
         }
+        */
     }
 
     public static void LoginTest(){

@@ -10,23 +10,6 @@ import org.junit.jupiter.api.Test;
 
 public class BillPayTest {
 
-    @BeforeEach
-    public void Login(){
-        //MenuPage.MainPage();
-        try {
-            LoginToParabankTest.Login();
-        }
-        catch (Exception e){
-        MenuPage.Register();
-        }
-    }
-
-    @AfterEach
-    public void CloseDriver(){
-        Util.CloseDriver();
-    }
-
-    @Test
     public static void BillPayTest(){
         BillPayPage.GetTwoAccount();
         float balanceBeforePaymentNumber = BillPayPage.accountOutBalance;

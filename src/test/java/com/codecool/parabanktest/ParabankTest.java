@@ -2,6 +2,7 @@ package com.codecool.parabanktest;
 
 import com.codecool.parabanktest.pages.BillPayPage;
 import com.codecool.parabanktest.pages.MenuPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
@@ -12,6 +13,7 @@ public class ParabankTest {
 
     @BeforeEach
     public void openParabankLogin() {
+
         MenuPage.MainPage();
         LoginToParabankTest.Login();
 
