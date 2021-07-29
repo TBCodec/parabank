@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.codecool.parabanktest",
+    "children" : [ {
+      "name" : "ParabankTest",
+      "children" : [ {
+        "name" : "testParabank",
+        "uid" : "b7b97ef22fd84146",
+        "parentUid" : "f85b15095bd2fd0f04774ef3059051f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627573415171,
+          "stop" : 1627573427315,
+          "duration" : 12144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f85b15095bd2fd0f04774ef3059051f6"
+    }, {
+      "name" : "LoginToParabankTest",
+      "children" : [ {
+        "name" : "LoginTest",
+        "uid" : "798fa347fc8e32a6",
+        "parentUid" : "d81f5e93dcf07b7d12fdae901eb84d87",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627591703897,
+          "stop" : 1627591703914,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login",
+        "uid" : "a4ac0a6b4d3d33f3",
+        "parentUid" : "d81f5e93dcf07b7d12fdae901eb84d87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627594478177,
+          "stop" : 1627594488145,
+          "duration" : 9968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d81f5e93dcf07b7d12fdae901eb84d87"
+    } ],
+    "uid" : "com.codecool.parabanktest"
+  } ],
+  "name" : "packages"
+}

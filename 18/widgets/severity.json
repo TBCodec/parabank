@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a4ac0a6b4d3d33f3",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1627594478177,
+    "stop" : 1627594488145,
+    "duration" : 9968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7b97ef22fd84146",
+  "name" : "testParabank()",
+  "time" : {
+    "start" : 1627573415171,
+    "stop" : 1627573427315,
+    "duration" : 12144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "798fa347fc8e32a6",
+  "name" : "LoginTest()",
+  "time" : {
+    "start" : 1627591703897,
+    "stop" : 1627591703914,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
