@@ -1,25 +1,16 @@
 package com.codecool.parabanktest;
 
-import org.junit.jupiter.api.AfterEach;
+import com.codecool.parabanktest.pages.MenuPage;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginToParabankTest {
 
-    @BeforeEach
-    public void openParabankLogin() {
-        MenuPage.MainPage();
-    }
-
-
-    @AfterEach
-    public void closeDriver(){
-        Util.CloseDriver();
-    }
-
     @Test
-    public void Login(){
+    public static void Login(){
         MenuPage.SendUserName();
         MenuPage.SendPassword();
         MenuPage.ClickLogInButton();
@@ -35,11 +26,13 @@ public class LoginToParabankTest {
             throw e;
         }
         */
-        //String expectedPage = "https://parabank.parasoft.com/parabank/overview.htm";
-        String expectedPage = "https://parabank.parasoft.com/parabank/login.htm";
-        String actualPage = Util.GetDriver().getCurrentUrl();
-        Assertions.assertEquals(actualPage, actualPage);
     }
 
+    @Test
+    public static void LoginTest(){
+        String expectedPage = "https://parabank.parasoft.com/parabank/overview.htm";
+        String actualPage = Util.GetDriver().getCurrentUrl();
+        Assertions.assertEquals(expectedPage, actualPage);
+    }
 
 }

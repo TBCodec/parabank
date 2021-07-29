@@ -1,4 +1,4 @@
-package com.codecool.parabanktest.pages;
+package com.codecool.parabanktest;
 
 import com.codecool.parabanktest.LoginToParabankTest;
 import com.codecool.parabanktest.Util;

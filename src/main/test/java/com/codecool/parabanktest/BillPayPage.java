@@ -1,7 +1,5 @@
-package com.codecool.parabanktest.pages;
+package com.codecool.parabanktest;
 
-import com.codecool.parabanktest.LoginToParabankTest;
-import com.codecool.parabanktest.Util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,6 +1,5 @@
-package com.codecool.parabanktest.pages;
+package com.codecool.parabanktest;
 
-import com.codecool.parabanktest.Util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,7 +58,7 @@ public class AccountOverviewPage {
     }
 
     public static Float SumBalance(ArrayList<String[]> accountAndBalanceList){
-        Float sumBalance = 0.f;
+        float sumBalance = 0.f;
         for (int i = 0; i < accountAndBalanceList.size(); i++) {
             String balance = accountAndBalanceList.get(i)[1];
             sumBalance += BillPayPage.TransformBalanceToFloat(balance);
