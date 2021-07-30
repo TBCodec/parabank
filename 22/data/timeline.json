@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az75-591",
+    "children" : [ {
+      "name" : "3251@fv-az75-591.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "CheckingNewAccountCreated()",
+        "uid" : "c9767a939aa58a68",
+        "parentUid" : "47518cc40f20c48bd93a6e3df54b6db5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627629194379,
+          "stop" : 1627629194444,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginTest()",
+        "uid" : "a14034997b0f887a",
+        "parentUid" : "47518cc40f20c48bd93a6e3df54b6db5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627629189504,
+          "stop" : 1627629194248,
+          "duration" : 4744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BillPayTest()",
+        "uid" : "83a04a6a43799ea7",
+        "parentUid" : "47518cc40f20c48bd93a6e3df54b6db5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627629194505,
+          "stop" : 1627629194535,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkingTotalBalanceTest()",
+        "uid" : "3aa0595c1143fc74",
+        "parentUid" : "47518cc40f20c48bd93a6e3df54b6db5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627629194465,
+          "stop" : 1627629194491,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47518cc40f20c48bd93a6e3df54b6db5"
+    } ],
+    "uid" : "4485ade5f88006bd5d4c964761e1dda4"
+  } ],
+  "name" : "timeline"
+}
