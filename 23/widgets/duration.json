@@ -1,0 +1,41 @@
+[ {
+  "uid" : "b78ac73ff073f4a8",
+  "name" : "CheckingNewAccountCreated()",
+  "time" : {
+    "start" : 1627629861095,
+    "stop" : 1627629861142,
+    "duration" : 47
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4e2d6e525942beef",
+  "name" : "checkingTotalBalanceTest()",
+  "time" : {
+    "start" : 1627629861167,
+    "stop" : 1627629861187,
+    "duration" : 20
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "98f595f99deb1b2d",
+  "name" : "BillPayTest()",
+  "time" : {
+    "start" : 1627629861204,
+    "stop" : 1627629861226,
+    "duration" : 22
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f0af051a6d380b6d",
+  "name" : "LoginTest()",
+  "time" : {
+    "start" : 1627629853548,
+    "stop" : 1627629861018,
+    "duration" : 7470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
