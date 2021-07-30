@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "eaefafff530834d6148dbf84170789c2",
+    "name" : "com.codecool.parabanktest.OpenNewAccountTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "48a410a132d72ee196463e404ae42e39",
+    "name" : "com.codecool.parabanktest.CheckingTotalBalanceAmountTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "79895ffca55164fe7e1cf2681a41be1c",
+    "name" : "com.codecool.parabanktest.BillPayTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a87f77b2f2e32e2ee7a52cf8d0a91f7b",
+    "name" : "com.codecool.parabanktest.LoginToParabankTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

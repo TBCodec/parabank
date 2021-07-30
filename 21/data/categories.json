@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-334', ip: '10.1.0.209', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.RK7Le4}, goog:chromeOptions: {debuggerAddress: localhost:39493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 032a99632aaf0a51d04ab64e0137e56b",
+      "children" : [ {
+        "name" : "CheckingNewAccountCreated()",
+        "uid" : "4303c2e7ef72a413",
+        "parentUid" : "d52b62aa05ca397f264027798bd4142c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627628137658,
+          "stop" : 1627628137692,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkingTotalBalanceTest()",
+        "uid" : "f111286922708da8",
+        "parentUid" : "d52b62aa05ca397f264027798bd4142c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627628137705,
+          "stop" : 1627628137718,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "BillPayTest()",
+        "uid" : "632912a2cd97582b",
+        "parentUid" : "d52b62aa05ca397f264027798bd4142c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627628137739,
+          "stop" : 1627628137762,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d52b62aa05ca397f264027798bd4142c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

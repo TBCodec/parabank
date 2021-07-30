@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Jul 30 06:55:37 GMT 2021","Fri Jul 30 06:55:37 GMT 2021","23","","com.codecool.parabanktest.BillPayTest","","com.codecool.parabanktest.BillPayTest","BillPayTest","BillPayTest()",""
+"passed","Fri Jul 30 06:55:32 GMT 2021","Fri Jul 30 06:55:37 GMT 2021","5357","","com.codecool.parabanktest.LoginToParabankTest","","com.codecool.parabanktest.LoginToParabankTest","LoginTest","LoginTest()",""
+"broken","Fri Jul 30 06:55:37 GMT 2021","Fri Jul 30 06:55:37 GMT 2021","13","","com.codecool.parabanktest.CheckingTotalBalanceAmountTest","","com.codecool.parabanktest.CheckingTotalBalanceAmountTest","checkingTotalBalanceTest","checkingTotalBalanceTest()",""
+"broken","Fri Jul 30 06:55:37 GMT 2021","Fri Jul 30 06:55:37 GMT 2021","34","","com.codecool.parabanktest.OpenNewAccountTest","","com.codecool.parabanktest.OpenNewAccountTest","CheckingNewAccountCreated","CheckingNewAccountCreated()",""
