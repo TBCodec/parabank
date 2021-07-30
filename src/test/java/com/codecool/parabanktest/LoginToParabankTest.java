@@ -26,7 +26,7 @@ public class LoginToParabankTest {
     }
 
 
-    public static void Login(){
+    public void Login(){
         MenuPage.SendUserName();
         System.out.println(Util.GetDriver().getCurrentUrl());
         MenuPage.SendPassword();

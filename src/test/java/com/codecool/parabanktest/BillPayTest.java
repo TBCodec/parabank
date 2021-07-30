@@ -11,19 +11,14 @@ public class BillPayTest {
     public void openParabankLogin() {
         Util.GetDriver();
         MenuPage.MainPage();
-        Login();
+        LoginToParabankTest login = new LoginToParabankTest();
+        login.Login();
     }
+
 
     @AfterEach
     public void closeDriver(){
         Util.CloseDriver();
-    }
-
-    public static void Login() {
-        MenuPage.SendUserName();
-        System.out.println(Util.GetDriver().getCurrentUrl());
-        MenuPage.SendPassword();
-        MenuPage.ClickLogInButton();
     }
 
     @Test
