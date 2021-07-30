@@ -4,12 +4,14 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
 
 public class BillPayTest {
 
+    WebDriver driver = Util.GetDriver();
+
     @BeforeEach
     public void openParabankLogin() {
-        Util.GetDriver();
         MenuPage.MainPage();
         LoginToParabankTest login = new LoginToParabankTest();
         login.Login();
