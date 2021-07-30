@@ -1,31 +1,3 @@
 [ {
-  "buildOrder" : 19,
-  "reportUrl" : "https://TBCodec.github.io/parabank/19/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9424
-  }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "https://TBCodec.github.io/parabank/18/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 21072974
-  }
-}, {
-  "buildOrder" : 17,
-  "reportUrl" : "https://TBCodec.github.io/parabank/17/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9262
-  }
-}, {
-  "buildOrder" : 16,
-  "reportUrl" : "https://TBCodec.github.io/parabank/16/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 12469
-  }
-}, {
   "data" : { }
 } ]
