@@ -35,7 +35,7 @@ public class MenuPage {
                 signingUpFields.get(i).sendKeys("sdfgh");
             }
             else {
-                signingUpFields.get(i).sendKeys("litro");
+                signingUpFields.get(i).sendKeys("litro2");
             }
         }
         driver.findElement(By.xpath("//input[@value='Register']")).click();
