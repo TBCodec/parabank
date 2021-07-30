@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://TBCodec.github.io/parabank",
+  "buildOrder" : 24,
+  "buildName" : "GitHub Actions Run #1081761946",
+  "buildUrl" : "https://github.com/TBCodec/parabank/actions/runs/1081761946",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://TBCodec.github.io/parabank/24/"
+} ]

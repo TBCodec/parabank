@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "com.codecool.parabanktest.LoginToParabankTest",
+    "children" : [ {
+      "name" : "LoginTest()",
+      "uid" : "764fd629b2eb9553",
+      "parentUid" : "a87f77b2f2e32e2ee7a52cf8d0a91f7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627637967015,
+        "stop" : 1627637974891,
+        "duration" : 7876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a87f77b2f2e32e2ee7a52cf8d0a91f7b"
+  }, {
+    "name" : "com.codecool.parabanktest.OpenNewAccountTest",
+    "children" : [ {
+      "name" : "CheckingNewAccountCreated()",
+      "uid" : "48cbe774da60f477",
+      "parentUid" : "eaefafff530834d6148dbf84170789c2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1627637974971,
+        "stop" : 1627637975001,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eaefafff530834d6148dbf84170789c2"
+  }, {
+    "name" : "com.codecool.parabanktest.CheckingTotalBalanceAmountTest",
+    "children" : [ {
+      "name" : "checkingTotalBalanceTest()",
+      "uid" : "b76bf6206d373e40",
+      "parentUid" : "48a410a132d72ee196463e404ae42e39",
+      "status" : "broken",
+      "time" : {
+        "start" : 1627637975022,
+        "stop" : 1627637975040,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "48a410a132d72ee196463e404ae42e39"
+  }, {
+    "name" : "com.codecool.parabanktest.BillPayTest",
+    "children" : [ {
+      "name" : "BillPayTest()",
+      "uid" : "921ba315412d4a75",
+      "parentUid" : "79895ffca55164fe7e1cf2681a41be1c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1627637975055,
+        "stop" : 1627637975069,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "79895ffca55164fe7e1cf2681a41be1c"
+  } ],
+  "name" : "suites"
+}
