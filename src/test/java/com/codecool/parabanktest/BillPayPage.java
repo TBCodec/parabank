@@ -19,7 +19,7 @@ public class BillPayPage {
     public static Float accountInBalance;
 
     private static final By BILL_PAY_PAGE = By.xpath("//a[@href='/parabank/billpay.htm']");
-    private static WebDriver driver = Util2.GetDriver();
+    private static WebDriver driver = Util.GetDriver();
     private static WebDriverWait wait = new  WebDriverWait(driver, 10);
 
     public static void OpenBillPayPage(){

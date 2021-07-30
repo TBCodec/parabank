@@ -16,7 +16,7 @@ public class MenuPage {
     private static final By LOGOUT_BUTTON = By.xpath("//a[@normalize-space()='Log Out']");
     private static final By REGISTER_BUTTON = By.xpath("//*[@id=\"loginPanel\"]//a[normalize-space()='Register']");
 
-    private static WebDriver driver = Util2.GetDriver();
+    private static WebDriver driver = Util.GetDriver();
     private static WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public static void MainPage(){
