@@ -21,9 +21,13 @@ public class Util {
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--headless");
             driver = new ChromeDriver(options);
-            //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+            /*
+            driver = new ChromeDriver();
+            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+            */
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
+            //driver.manage().window().maximize();
         }
         return driver;
     }
